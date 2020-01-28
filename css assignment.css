@@ -1,0 +1,488 @@
+body{
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+#header {
+    width: 100%;
+
+}
+#upper {
+    color: antiquewhite;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.ul {
+    display: inline;
+    color: white;
+    border-radius: 13px;
+    background-color: rgb(68, 60, 60);
+    font-size: large;
+    margin: 5px;
+    padding: 5px;
+}
+.ulf:hover{
+    font-size: larger;
+}
+
+.call{
+    width: 35%;
+    overflow: hidden;
+    height: 28px;
+}
+
+.phone { width: 5%;
+    height: 20px;
+
+}
+.btn {
+    width: 100px;
+    height: 30px;
+    background-color: darkgreen;
+    margin: auto 8px auto 3px;
+    border-radius: 8px;
+    border-color: darkgreen;
+    
+}
+.btn:hover{
+    color: white;
+    background-color: green;
+    border: white;
+
+}
+.pana {
+    width: 25%;
+    height: 100px;
+}
+
+#post {
+    float: right;
+    margin: 70px 10px auto auto;
+
+}
+.port {
+    display: inline;
+    margin: auto 15px auto auto;
+    font-size: large;
+}
+.port:hover {
+    border-bottom: 10px orange solid;
+    font-size: larger;
+}
+.slide {
+    width: 100%;
+    height: 525px;
+}
+#keyboard {
+    margin: 5px 0px 5px 0px;
+    overflow: hidden;
+    height: 400px;
+}
+#about {
+    display: flex;
+}
+.float {
+    height: 300px;
+    justify-content: center;
+    text-align: center;
+    color: rgb(138, 135, 135);
+    padding: 5px;
+}
+h5 {
+    font-size: larger;
+    color: #000000;
+    margin: 5px auto 1px auto;
+}
+h1 {
+    color: #000000;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+}
+g {
+    color: green;
+}
+.img {
+    width: 80px; 
+    height: 80px;
+    padding: 20px;
+    border-radius: 60px;
+    background-color: whitesmoke;
+}
+.text {
+    width: 50%;
+    margin: auto auto auto 20px;
+}
+.us{
+    margin: -390px auto auto auto;
+}
+
+.star {
+    width: 60px; 
+    height: 60px;
+    padding: 10px;
+    border-radius: 60px;
+    align-self: center;
+    margin: auto auto -40px 80px;
+} 
+ #box {
+     float: left;
+     width: 20%;
+     margin: 5px auto 5px 4%;
+ }
+ #box:hover {
+     transform: scale(1.1);
+
+ }
+
+ #work {
+       height: 450px;
+   }  
+ .box {
+     width: 200px;
+     height: 150px;
+     text-align: center;
+     background-color: rgb(241, 237, 237);
+     color: rgb(138, 135, 135);
+     border-radius: 1px;
+     padding: 20px;
+ }
+
+#portfolio {
+     background-color: #000000;
+     margin-top: 5px;
+     height: 600px;
+     padding: 8px;
+ }
+ .center {
+     display: flex;
+     justify-content: center;
+     
+ }
+ .name {
+     display: inline;
+     text-align: center;
+     color: #ffffff;
+     margin: 13px;
+     font-size: large;
+     
+ }
+ .mark {
+    justify-content: center;
+    text-align: center;
+    color: rgb(138, 135, 135);
+    padding: 5px;
+ }
+ .name:hover{
+     color: orange;
+ }
+ .folio {
+     width: 1200px;
+     height: 350px;
+     margin: auto 40px auto 60px;
+ }
+
+ .premium {
+     width: 23%;
+     height: 400px;
+     border: 1px solid;
+     text-align: center;
+     border: 2px solid gray;
+     margin: 20px -30px auto -30px;
+     
+ }
+.list {
+    list-style: none;
+    align-self: center;
+    margin-left: -35px;
+}
+.switch {
+    display: flex;
+    justify-content: space-evenly;
+}
+.number{
+    color: green;
+}
+.head{
+    width:75%;
+    margin:0px auto;
+    border-bottom: 2px solid gray;
+    font-size: 22px;
+    margin-top: 15px;
+    height: 50px;
+}
+.premium:hover{
+    transform: scale(1.1);
+    border: navy 2px solid;
+
+}
+.blue{
+    color: #ffffff;
+    width: 150px;
+    height: 40px;
+    background-color: rgb(6, 120, 250);
+}
+.all{
+    width: 300px;
+    height: 40px;
+    align-self: center;
+    background-color: green;
+    color: #ffffff;
+}
+#all{
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.items{
+    width: 75%;
+    margin: -15px 10px 8px 10px;
+    height: 150px;
+    border-radius: 200px 200px 200px 200px;
+    border: rgb(161, 161, 161) 3px solid;
+    padding: 0px;
+
+
+}
+.pic{
+    float: left;
+    width: 15%;
+    height: 375px;
+    text-align: center;
+    margin: 10px;
+}
+#process{
+    height: 120px;
+}
+.num{   
+    border-radius: 12px;
+    width: 23px;
+    height: 23px;
+    margin-left:90px;
+    background-color: orange;
+    align-self: center;
+    font-size: large;
+}
+#detail{
+
+    height: 525px;
+    width: 100%;
+} 
+#element{
+    height: 550px;
+    background-color: whitesmoke;
+    padding-top: 20px;
+     border-top: 3px rgb(138, 135, 135) solid;
+     border-bottom: solid 3px rgb(138, 135, 135);
+}
+.flip{
+    text-align: center;
+    color: rgb(138, 135, 135);
+    width: 50%;
+    margin: 0 auto;
+}
+
+.aside{
+    padding: 12px;
+    width: 40%;
+    float: left;
+    margin-top: 20px;
+    border-bottom: solid 2px rgb(138, 135, 135);
+
+}
+.domain{
+    width: 22%;
+    height: 120px;
+    float: left;
+    border-radius: 130px;
+    margin: 15px;
+
+}
+
+.seed{
+    padding: 0px 12px 12px 12px;
+    width: 40%;
+    float: left;
+    margin-top: 0px;
+    
+
+}
+.image{
+    width: 22%;
+    height: 120px;
+    float: left;
+    border-radius: 130px;
+    margin: 15px;
+
+}
+
+circle{
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+}
+
+.yellow{
+    fill: none;
+    stroke: rgb(240, 205, 11);
+    stroke-width: 8%;
+    stroke-dasharray:calc(440 - (440 * 35)/100);
+    stroke-linecap: round;
+    
+}
+
+
+.red{
+    fill: none;
+    stroke: red;
+    stroke-width: 8%;
+    stroke-dasharray:200 200;
+    stroke-linecap: square;
+    
+}
+.green{
+    fill: none;
+    stroke: green;
+    stroke-width: 8%;
+    stroke-dasharray:calc(440 - (440 * 35)/100);
+    stroke-linecap: round;
+    
+}
+.black{
+    fill: none;
+    stroke: black;
+    stroke-width: 8%;
+    stroke-dasharray:calc(440 - (200 * 20)/100);
+    stroke-linecap: round;
+    
+}
+
+.percentage{
+    color: #000000;
+    font-size: 40px;
+}
+#project{
+    width: 99%;
+    background-color: rgb(120, 209, 4);
+    color: white;
+    height: 275px;
+    padding: 10px;
+    text-align: center;
+}
+.side{
+    display: flex;
+    justify-content: center;
+
+}
+input{
+    width: 225px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px;
+     
+}
+.send{
+    width: 200px;
+    height: 40px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: 18px;
+    border-bottom: orangered 2px solid;
+}
+.style{
+    width: 50%;
+    margin:0 25%;
+    margin-top: 20px;
+}
+.locate{
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    margin: 20px auto auto auto;
+    font-size: large;
+}
+.cell{
+    width: 200px;
+    height: 40px;
+    font-size: large;
+
+}
+.remote{
+    display: flex;
+    justify-content: center;
+
+}
+iframe{
+    width: 100%;
+    height: 400px;
+}
+#panacloud{
+    height: 325px;
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(155, 230, 5);
+    color: white;
+}
+.download{
+    width: 235px;
+    height: 100px;
+    margin-top: 0px;
+}
+.line{
+    margin-top: 30px;
+}
+.live{
+    list-style-type: none;
+    width: 100%;
+}
+a{
+    color: white;
+}
+.end{
+    margin: 10px;
+}
+.face{
+    display: inline;
+
+}
+.side{
+    text-align: center;
+
+}
+
+.final{
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+    margin-left: 20px;
+}
+.span{
+    margin-top: 30px;
+    width: 150px;
+    height: 50px;
+    border: #000000 1px solid;
+    margin-left: -180px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.links{
+    float: left;
+    margin: 15px;
+    width: 30px;
+    height: 30px;
+    list-style-type: none;
+    border: 1px solid;
+    font-size: large;    
+}
+h3{
+    margin-left: 10px;
+    height: 25px;
+    margin-top: 15px;
+}
